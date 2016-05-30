@@ -1,3 +1,7 @@
+plugins {
+    id 'net.saliman.cobertura' version '2.3.1'
+    id 'com.github.kt3k.coveralls' version '2.6.3'
+}
 apply plugin: 'java'
 apply plugin: 'maven'
 apply plugin: 'application'
@@ -19,10 +23,7 @@ repositories {
     maven { url "http://repo.maven.apache.org/maven2" }
 }
 
-plugins {
-    id 'net.saliman.cobertura' version '2.3.1'
-    id 'com.github.kt3k.coveralls' version '2.6.3'
-}
+
 cobertura.coverageFormats = ['html', 'xml'] // coveralls plugin depends on xml format report
 
 dependencies {
