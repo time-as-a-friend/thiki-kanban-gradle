@@ -18,6 +18,13 @@ repositories {
 
     maven { url "http://repo.maven.apache.org/maven2" }
 }
+
+plugins {
+    id 'net.saliman.cobertura' version '2.3.1'
+    id 'com.github.kt3k.coveralls' version '2.6.3'
+}
+cobertura.coverageFormats = ['html', 'xml'] // coveralls plugin depends on xml format report
+
 dependencies {
     compile(group: 'cn.xubitao', name: 'dolphin', version: '1.0-release') {
         exclude(module: 'servlet-api')
@@ -62,3 +69,4 @@ sourceSets.main.java.srcDir 'src/main/java'
 sourceSets.main.resources.srcDirs 'src/main/resources'
 sourceSets.test.java.srcDir 'src/test/java'
 sourceSets.test.resources.srcDirs 'src/java/resources'
+cobertura.coverageSourceDirs = sourceSets.main.groovy.srcDirs
