@@ -1,6 +1,6 @@
 
 [![Build Status](http://img.shields.io/travis/xubitao/thiki-kanban-gradle/master.svg?style=flat-square)](https://travis-ci.org/xubitao/thiki-kanban-gradle)
-[![Coverage Status](http://img.shields.io/coveralls/thiki-org/thiki-kanban-backend/go.svg?style=flat-square)](https://coveralls.io/r/thiki-org/thiki-kanban-backend?branch=go)
+[![Coverage Status](http://img.shields.io/coveralls/xubitao/thiki-kanban-gradle/master.svg?style=flat-square)](https://coveralls.io/r/thiki-org/thiki-kanban-gradle?branch=master)
 [![Codacy Badge](https://img.shields.io/codacy/grade/096aad581d3b44f6bde20ab37862512e/go.svg?style=flat-square)](https://www.codacy.com/app/btao-cn/thiki-kanban-backend?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=thiki-org/thiki-kanban-backend&amp;utm_campaign=Badge_Grade)
 
 
