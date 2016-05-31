@@ -19,6 +19,7 @@ README.html
 /bin/
 .settings/
 kanban.iml
+/build
 
 build/
 gradle/
